@@ -3,7 +3,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build:firebase": "node scripts/build-firebase.js"
+    "build:firebase": "node scripts/build-firebase.js",
+    "build": "npm run build:firebase",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
   },
   "dependencies": {
     "firebase": "^12.7.0"
