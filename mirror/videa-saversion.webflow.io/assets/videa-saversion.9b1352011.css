@@ -12,6 +12,12 @@
 /* ==========================================================================
    Start of custom Webflow CSS
    ========================================================================== */
+
+/* Remove Webflow badge */
+.w-webflow-badge {
+  display: none !important;
+}
+
 body {
   font-family: Ciutadellarounded, sans-serif;
   color: #0948eb;
