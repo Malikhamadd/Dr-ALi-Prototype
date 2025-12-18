@@ -1,0 +1,14 @@
+{
+  "hosting": {
+    "public": "mirror/videa-saversion.webflow.io",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "predeploy": [
+      "npm ci",
+      "npm run build:firebase"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "dr-ali-prototype",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:firebase": "node scripts/build-firebase.js"
+  },
+  "dependencies": {
+    "firebase": "^12.7.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}
